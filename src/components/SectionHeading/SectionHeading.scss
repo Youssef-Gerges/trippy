@@ -1,0 +1,35 @@
+.section-heading {
+    margin: 4rem 6rem;
+    text-align: center;
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 800;
+    }
+
+    p {
+        margin-top: 0.5rem;
+    }
+}
+
+
+.cards-container {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 850px) {
+    .section-heading {
+        margin: 4rem 2rem;
+    }
+
+    .cards-container {
+        display: flex;
+        margin-top: 5rem;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}
